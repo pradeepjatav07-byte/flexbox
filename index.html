@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .con{
+            height: 100vh;
+            width: 100%;
+            border: 1px solid black;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            font-size: 20px;
+            padding: 50px;
+        }
+        .header,.footer{
+            height: 20%;
+            border: 1px solid black;
+            width: 100%;
+            background-color: antiquewhite;
+        }
+        .middle{
+            height: 60%;
+            border: 1px solid black;
+            width: 100%;
+            display: flex;
+            background-color: cornflowerblue;
+        }
+        .left{
+            height: 100%;
+            width: 20%;
+            border:  1px solid black;
+            background-color: rgb(144, 205, 243);
+        }
+        .right{
+            height: 100%;
+            width: 80%;
+            border:  1px solid black;
+            background-color: rgb(204, 250, 152);
+        }
+        .top{
+            height: 50%;
+            width: 100%;
+            border: 1px solid black;
+            background-color: rgb(2, 126, 192);
+        }
+        .bottom{
+            height: 50%;
+            width: 100%;
+            border: 1px solid black;
+            display: flex;
+            background-color: darkkhaki;
+        }
+        .bottom1, .bottom2{
+            height: 100%;
+            width: 50%;
+            border: 1px solid black;
+            background-color: darkseagreen;
+        }
+        .bottom2 {
+            background-color: darkseagreen;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body><h1>---Flex box---</h1>
+    <div class="con">
+        <div class="header"><h2>__HEADER__</h2></div>
+        <div class="middle">
+            <div class="left"><h2>__LEFT__</h2></div>
+            <div class="right">
+                <div class="top"><h2>__TOP__</h2></div>
+                <div class="bottom">
+                    <div class="bottom1"><h2>__BOTTOM LEFT__</h2></div>
+                    <div class="bottom2"><h2>__BOTTOM RIGHT__</h2></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer"><h2>__FOOTER__</h2></div>
+    </div>
+</body>
+</html>
